@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--GOOGLE FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    
+    <!--CSS-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+    <!--FONTAWESOME-->
+    <script src="https://kit.fontawesome.com/0e5787af4a.js" crossorigin="anonymous"></script>
+    
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <title>Cuppon</title>
+</head>
+<body>
+
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg bg-success navbar-dark">
+        <div class="container-fluid">
+          <a href="#"><img class="logo" src="./assets/images/logo-white.png" alt="Logo Cuppon"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pricing</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!--CARDS-->
+      <div class="row row-cols-1 row-cols-md-3 g-4 m-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/images/22011E50-98DC-4984-8B82-94B53DD2D7CB.jpg" class="card-img-top" alt="Cupon 1">
+            <div class="card-body">
+              <h5 class="card-title fw-light black">Plumón Coral Fleece estampado en modelo y tamaño a elección</h5>
+              <p class="card-text fw-light gray">
+                Plumones Manolino
+                <br>
+                <i class="fa-sharp fa-solid fa-location-dot"></i>
+                9191 Avenida Vitacura, Chile
+        </p>
+            </div>
+            <div class="card-footer">
+                <div class="row justify-content-end">
+                    <h5 class="col-auto fw-light gray">$45.990</h5>
+                    <h5 class="col-auto fw-light text-success">$22.990</h5>
+                </div>
+            
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/images/6EF73994-EBBA-409B-8F94-538ACD6BCEDC.jpg" class="card-img-top" alt="Cupón 2">
+            <div class="card-body">
+              <h5 class="card-title fw-light black">Entrada para compartir + platos de fondo + postres + bebestibles</h5>
+              <p class="card-text fw-light gray">
+                V for Vegan
+                <br>
+                <i class="fa-sharp fa-solid fa-location-dot"></i>
+                777 Jesse Pinkman, Chile
+        </p>
+            </div>
+            <div class="card-footer">
+                <div class="row justify-content-end">
+                    <h5 class="col-auto fw-light gray">$45.990</h5>
+                    <h5 class="col-auto fw-light text-success">$22.990</h5>
+                </div>
+                
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/images/7F8A993B-1ACF-43F4-B4AE-067232724E46.jpg" class="card-img-top" alt="Clase 3">
+            <div class="card-body">
+              <h5 class="card-title fw-light black">San Pedro de Atacama : 1 o 2 noches en alojamiento a elección</h5>
+              <p class="card-text fw-light gray">D-Latam Travel
+              <br>
+              <i class="fa-sharp fa-solid fa-location-dot"></i>
+              777 Jesse Pinkman, Chile
+            </p>
+            </div>
+            <div class="card-footer">
+                <div class="row justify-content-end">
+                    <h5 class="col-auto fw-light gray">$80.200</h5>
+                    <h5 class="col-auto fw-light text-success">$44.100</h5>
+                </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <!--FORM-->
+      <div class="mb-3 bg-success px-5 py-4">
+        <h4 class="text-center text-light mb-3">Recibe cupones en tu correo</h4>
+        <textarea class="form-control mb-3 p-3" id="exampleFormControlTextarea1" rows="1" placeholder="Nombre"></textarea>
+        <input type="email" class="form-control mb-3 p-3" id="exampleFormControlInput1" placeholder="correo electrónico">
+        <div class="text-center">
+        <button type="button" class="btn btn-light px-4">Enviar</button>
+    </div>
+      </div>
+
+      <!--FOOTER-->
+
+      <footer class="text-center">
+        <img src="./assets/images/logo-black.png" alt="Logo Cupon" class="logo m-3">
+        <p>© 2018 Cuppon Latam .Todos los derechos reservados.</p>
+      </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>
